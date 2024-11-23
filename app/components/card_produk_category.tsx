@@ -2,14 +2,14 @@ import React from "react";
 import Image from "next/image";
 
 interface category_props {
-  width: number;
-  height: number;
+  // width: number;
+  // height: number;
   src: string;
   alt: string;
   title: string;
 }
 
-const Product_Category: React.FC<category_props> = ({ src, alt, title, width, height }) => {
+const Product_Category: React.FC<category_props> = ({ src, alt, title }) => {
   return (
     <div className="flex flex-col items-center justify-center bg-white rounded-lg shadow-md transition-all duration-300 hover:shadow-lg cursor-pointer w-{[120px]} h-[120px] p-2">
       <div className="relative w-16 h-16 mb-2">

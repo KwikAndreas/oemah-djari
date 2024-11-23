@@ -157,8 +157,8 @@ const Category = () => {
             .map((category) => (
               <Product_Category
                 key={category.id}
-                width={128}
-                height={128}
+                // width={128}
+                // height={128}
                 src={category.src}
                 alt={category.alt}
                 title={category.title}
