@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import Card_Brand from "../components/card_brand";
 
 const Brand = () => {
@@ -80,15 +79,11 @@ const Brand = () => {
   const totalPages = Math.ceil(brands.length / itemsPerPage);
 
   const handlePrevious = () => {
-    setCurrentPage((prevPage) => {
-      return prevPage > 0 ? prevPage - 1 : 0;
-    });
+    setCurrentPage((prevPage) => Math.max(prevPage - 1, 0));
   };
 
   const handleNext = () => {
-    setCurrentPage((prevPage) => {
-      return prevPage < totalPages - 1 ? prevPage + 1 : totalPages - 1;
-    });
+    setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages - 1));
   };
 
   const displayedBrands = brands.slice(
@@ -114,14 +109,10 @@ const Brand = () => {
             transition-all
             duration-300
             disabled:cursor-not-allowed
+            text-black
           "
           >
-            <Image
-              src="/icons/arrow-left.svg"
-              alt="Previous"
-              width={20}
-              height={20}
-            />
+            {"<"}
           </button>
           <button
             onClick={handleNext}
@@ -138,12 +129,7 @@ const Brand = () => {
             disabled:cursor-not-allowed
           "
           >
-            <Image
-              src="/icons/arrow-right.svg"
-              alt="Next"
-              width={20}
-              height={20}
-            />
+            {">"}
           </button>
         </div>
       </div>

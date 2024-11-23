@@ -10,8 +10,6 @@ const Card_Brand: React.FC<brand_props> = ({ src, alt }) => {
   return (
     <div
       className="
-      w-[156px] 
-      h-[156px] 
       flex 
       items-center 
       justify-center 
@@ -19,14 +17,23 @@ const Card_Brand: React.FC<brand_props> = ({ src, alt }) => {
       rounded-lg 
       shadow-md 
       p-4 
-      overflow-hidden
+      overflow-hidden 
+      w-full 
+      max-w-[120px] 
+      sm:max-w-[140px] 
+      md:max-w-[156px] 
+      h-auto
     "
     >
       <div
         className="
         relative 
-        w-full 
-        h-full 
+        w-20 
+        h-20 
+        sm:w-24 
+        sm:h-24 
+        md:w-28 
+        md:h-28 
         transition-transform 
         duration-300 
         ease-in-out 
@@ -41,7 +48,7 @@ const Card_Brand: React.FC<brand_props> = ({ src, alt }) => {
             object-contain 
             cursor-pointer
           "
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
         />
       </div>
     </div>

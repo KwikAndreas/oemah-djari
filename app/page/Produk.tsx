@@ -12,6 +12,7 @@ const Produk = () => {
       title: "Bawang Merah",
       desc: "Deskripsi Bawang Merah",
       harga: "Rp 100.000",
+      stok: "10",
       ukuran: ["S", "M", "L", "XL"],
     },
     {
@@ -23,6 +24,7 @@ const Produk = () => {
       title: "Bawang Putih",
       desc: "Deskripsi Bawang Putih",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 3,
@@ -33,6 +35,7 @@ const Produk = () => {
       title: "Cabe",
       desc: "Deskripsi Cabe",
       harga: "Rp 100.000",
+      stok: 10,
     },
     {
       id: 4,
@@ -43,6 +46,7 @@ const Produk = () => {
       title: "Daun Bawang",
       desc: "Deskripsi Daun Bawang",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 5,
@@ -53,6 +57,7 @@ const Produk = () => {
       title: "Wortel",
       desc: "Deskripsi Wortel",
       harga: "Rp 100.000",
+      stok: "10",
     },
     {
       id: 6,
@@ -63,6 +68,7 @@ const Produk = () => {
       title: "Kentang",
       desc: "Deskripsi Kentang",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 7,
@@ -73,6 +79,7 @@ const Produk = () => {
       title: "Daging Ayam",
       desc: "Deskripsi Daging Ayam",
       harga: "Rp 100.000",
+      stok: "10",
     },
     {
       id: 8,
@@ -83,6 +90,7 @@ const Produk = () => {
       title: "Daging Sapi",
       desc: "Deskripsi Daging Sapi",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 9,
@@ -93,6 +101,7 @@ const Produk = () => {
       title: "Telur",
       desc: "Deskripsi Telur",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 10,
@@ -103,6 +112,7 @@ const Produk = () => {
       title: "Tahu",
       desc: "Deskripsi Tahu",
       harga: "Rp 100.000",
+      stok: "10",
     },
     {
       id: 11,
@@ -113,6 +123,7 @@ const Produk = () => {
       title: "Tempe",
       desc: "Deskripsi Tempe",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 12,
@@ -123,6 +134,7 @@ const Produk = () => {
       title: "Daging Ikan Tuna",
       desc: "Deskripsi Daging Ikan Tuna",
       harga: "Rp 100.000",
+      stok: "10",
     },
     {
       id: 13,
@@ -133,6 +145,7 @@ const Produk = () => {
       title: "Beras",
       desc: "Deskripsi Beras",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 14,
@@ -143,6 +156,7 @@ const Produk = () => {
       title: "Mie",
       desc: "Deskripsi Mie",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 15,
@@ -153,6 +167,7 @@ const Produk = () => {
       title: "Roti",
       desc: "Deskripsi Roti",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 16,
@@ -163,6 +178,7 @@ const Produk = () => {
       title: "Garam",
       desc: "Deskripsi Garam",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 17,
@@ -173,6 +189,7 @@ const Produk = () => {
       title: "Gula",
       desc: "Deskripsi Gula",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 18,
@@ -183,6 +200,7 @@ const Produk = () => {
       title: "Kecap Manis",
       desc: "Deskripsi Kecap Manis",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 19,
@@ -193,6 +211,7 @@ const Produk = () => {
       title: "Kecap Asin",
       desc: "Deskripsi Kecap Asin",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 20,
@@ -203,6 +222,7 @@ const Produk = () => {
       title: "Saus Tiram",
       desc: "Deskripsi Saus Tiram",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 21,
@@ -213,6 +233,7 @@ const Produk = () => {
       title: "Minyak Goreng",
       desc: "Deskripsi Minyak Goreng",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 22,
@@ -223,6 +244,7 @@ const Produk = () => {
       title: "Santan",
       desc: "Deskripsi Santan",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 23,
@@ -233,6 +255,7 @@ const Produk = () => {
       title: "Tepung Terigu",
       desc: "Deskripsi Tepung Terigu",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 24,
@@ -243,6 +266,7 @@ const Produk = () => {
       title: "Keju",
       desc: "Deskripsi Keju",
       harga: "Rp 200.000",
+      stok: "10",
     },
     {
       id: 25,
@@ -253,6 +277,7 @@ const Produk = () => {
       title: "Susu Cair",
       desc: "Deskripsi Susu Cair",
       harga: "Rp 200.000",
+      stok: "10",
     },
   ];
 
@@ -334,6 +359,7 @@ const Produk = () => {
                   title={item.title}
                   desc={item.desc}
                   harga={item.harga}
+                  stok={item.stok.toString()}
                 />
               ))}
           </div>

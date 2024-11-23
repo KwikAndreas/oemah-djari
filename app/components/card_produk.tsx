@@ -11,6 +11,7 @@ interface produk_props {
   title: string;
   desc: string;
   harga: string;
+  stok: string;
   ukuran?: string[];
 }
 
@@ -23,6 +24,7 @@ const CardProduk: React.FC<produk_props> = ({
   title,
   desc,
   harga,
+  stok,
   ukuran = [],
 }) => {
   return (
@@ -31,9 +33,9 @@ const CardProduk: React.FC<produk_props> = ({
 
       <label
         htmlFor={`produk-${id}`}
-        className="block w-[270px] h-[320px] border rounded-lg overflow-hidden shadow-lg bg-white transition-transform duration-500 hover:scale-105 cursor-pointer"
+        className="block w-full max-w-sm md:max-w-xs lg:max-w-sm h-auto border rounded-lg overflow-hidden shadow-lg bg-white transition-transform duration-500 hover:scale-105 cursor-pointer"
       >
-        <div className="h-1/2 w-full bg-white flex items-center justify-center">
+        <div className="h-48 w-full bg-white flex items-center justify-center">
           <Image
             src={src}
             alt={alt}
@@ -43,13 +45,18 @@ const CardProduk: React.FC<produk_props> = ({
           />
         </div>
 
-        <div className="p-4 h-1/2 flex flex-col justify-between">
+        <div className="p-4 flex flex-col justify-between h-auto">
           <div>
-            <h2 className="text-lg font-bold text-gray-900 hover:text-yellow-600">{title}</h2>
+            <h2 className="text-lg font-bold text-gray-900 hover:text-yellow-600">
+              {title}
+            </h2>
             <p className="text-sm text-gray-600">{desc}</p>
           </div>
           <div>
-            <p className="text-xl font-semibold text-gray-700">{harga}</p>
+            <div className="flex items-center space-x-4">
+              <p className="text-xl font-semibold text-gray-700">{harga}</p>
+              <p className="text-lg text-green-500">{stok}</p>
+            </div>
             <span className="mt-2 text-blue-500">Lihat Detail</span>
           </div>
         </div>
@@ -64,6 +71,7 @@ const CardProduk: React.FC<produk_props> = ({
         title={title}
         desc={desc}
         harga={harga}
+        stok={stok}
         ukuran={ukuran}
       />
     </div>

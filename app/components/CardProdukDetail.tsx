@@ -10,6 +10,7 @@ interface ProdukDetailProps {
   title: string;
   desc: string;
   harga: string;
+  stok: string;
   ukuran?: string[];
 }
 
@@ -22,6 +23,7 @@ const CardProdukDetail: React.FC<ProdukDetailProps> = ({
   title,
   desc,
   harga,
+  stok,
   ukuran = [],
 }) => {
   return (
@@ -56,10 +58,11 @@ const CardProdukDetail: React.FC<ProdukDetailProps> = ({
 
             <p className="text-lg text-gray-600 mb-6">{desc}</p>
 
-            <div className="mb-6">
+            <div className="mb-6 flex items-center space-x-4">
               <p className="text-2xl font-semibold text-yellow-600 mb-2">
                 {harga}
               </p>
+              <p className="text-2xl font-semibold text-green-600 mb-2">, stok {stok}</p>
             </div>
 
             <div className="mb-6">
