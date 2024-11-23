@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-center p-2 bg-yellow-400 text-white">
+    <nav className="flex items-center justify-center p-2 bg-yellow-200 text-white">
       <div className="w-2/4 flex items-center justify-between">
         <div className="flex items-center justify-center w-1/3">
           <Image

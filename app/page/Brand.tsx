@@ -9,52 +9,52 @@ const Brand = () => {
   const brands = [
     {
       id: 1,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Arum Co",
     },
     {
       id: 2,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Cakra Kembar",
     },
     {
       id: 3,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Choco chips",
     },
     {
       id: 4,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Dark Compound Chocolate",
     },
     {
       id: 5,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Dark Compound Chocolate",
     },
     {
       id: 6,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Dark Compound Chocolate",
     },
     {
       id: 7,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Dark Compound Chocolate",
     },
     {
       id: 8,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Dark Compound Chocolate",
     },
     {
       id: 9,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Dark Compound Chocolate",
     },
     {
       id: 10,
-      src: "/static/logo_cozy.png",
+      src: "/static/logo-oemah-djari.png",
       alt: "Dark Compound Chocolate",
     },
   ];
