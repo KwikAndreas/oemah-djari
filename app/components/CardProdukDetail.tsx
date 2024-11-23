@@ -57,12 +57,9 @@ const CardProdukDetail: React.FC<ProdukDetailProps> = ({
             <p className="text-lg text-gray-600 mb-6">{desc}</p>
 
             <div className="mb-6">
-              <p className="text-2xl font-semibold text-green-600 mb-2">
+              <p className="text-2xl font-semibold text-yellow-600 mb-2">
                 {harga}
               </p>
-              {/* <p className="text-sm text-gray-500">
-                Harga sudah termasuk pajak
-              </p> */}
             </div>
 
             <div className="mb-6">
@@ -82,7 +79,7 @@ const CardProdukDetail: React.FC<ProdukDetailProps> = ({
             </div>
 
             <div className="flex space-x-4">
-              <button className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors">
+              <button className="bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors">
                 Tambah ke Keranjang
               </button>
               <button className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors">

@@ -45,7 +45,7 @@ const CardProduk: React.FC<produk_props> = ({
 
         <div className="p-4 h-1/2 flex flex-col justify-between">
           <div>
-            <h2 className="text-lg font-bold text-gray-900 hover:text-green-500">{title}</h2>
+            <h2 className="text-lg font-bold text-gray-900 hover:text-yellow-600">{title}</h2>
             <p className="text-sm text-gray-600">{desc}</p>
           </div>
           <div>
