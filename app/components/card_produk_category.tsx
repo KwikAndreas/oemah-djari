@@ -23,7 +23,7 @@ const Product_Category: React.FC<category_props> = ({ src, alt, title }) => {
       </div>
       <h3
         className="text-sm font-medium text-center text-gray-700 
-      line-clamp-2 hover:text-green-500"
+      line-clamp-2 hover:text-yellow-500"
       >
         {title}
       </h3>

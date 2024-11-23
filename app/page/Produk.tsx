@@ -86,6 +86,16 @@ const Produk = () => {
     },
     {
       id: 9,
+      width: 96,
+      height: 168,
+      src: "/static/product/telur.png",
+      alt: "Telur",
+      title: "Telur",
+      desc: "Deskripsi Telur",
+      harga: "Rp 200.000",
+    },
+    {
+      id: 10,
       width: 128,
       height: 168,
       src: "/static/product/tahu.png",
@@ -95,7 +105,7 @@ const Produk = () => {
       harga: "Rp 100.000",
     },
     {
-      id: 10,
+      id: 11,
       width: 168,
       height: 168,
       src: "/static/product/tempe.png",
@@ -105,17 +115,17 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 11,
+      id: 12,
       width: 168,
       height: 168,
-      src: "/static/product/tempe.png",
-      alt: "Tempe",
-      title: "Tempe",
-      desc: "Deskripsi Tempe",
+      src: "/static/product/daging_ikan_tuna.png",
+      alt: "Daging Ikan Tuna",
+      title: "Daging Ikan Tuna",
+      desc: "Deskripsi Daging Ikan Tuna",
       harga: "Rp 100.000",
     },
     {
-      id: 12,
+      id: 13,
       width: 96,
       height: 168,
       src: "/static/product/beras.png",
@@ -125,7 +135,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 13,
+      id: 14,
       width: 156,
       height: 168,
       src: "/static/product/mie.png",
@@ -135,7 +145,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 14,
+      id: 15,
       width: 96,
       height: 168,
       src: "/static/product/roti.png",
@@ -145,7 +155,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 15,
+      id: 16,
       width: 96,
       height: 168,
       src: "/static/product/garam.png",
@@ -155,7 +165,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 16,
+      id: 17,
       width: 96,
       height: 168,
       src: "/static/product/gula.png",
@@ -165,7 +175,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 17,
+      id: 18,
       width: 128,
       height: 168,
       src: "/static/product/kecap_manis.png",
@@ -175,7 +185,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 18,
+      id: 19,
       width: 96,
       height: 168,
       src: "/static/product/kecap_asin.png",
@@ -185,7 +195,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 19,
+      id: 20,
       width: 84,
       height: 168,
       src: "/static/product/saus_tiram.png",
@@ -195,7 +205,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 20,
+      id: 21,
       width: 128,
       height: 168,
       src: "/static/product/minyak.png",
@@ -205,7 +215,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 21,
+      id: 22,
       width: 96,
       height: 168,
       src: "/static/product/santan.png",
@@ -215,7 +225,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 22,
+      id: 23,
       width: 96,
       height: 168,
       src: "/static/product/tepung_terigu.png",
@@ -225,7 +235,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 23,
+      id: 24,
       width: 96,
       height: 168,
       src: "/static/product/keju.png",
@@ -235,7 +245,7 @@ const Produk = () => {
       harga: "Rp 200.000",
     },
     {
-      id: 24,
+      id: 25,
       width: 96,
       height: 168,
       src: "/static/product/susu_cair.png",

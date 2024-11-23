@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="relative">
               <button
                 onClick={() => setDropdownOpen(!isDropdownOpen)}
-                className="p-2 text-gray-800 hover:text-white"
+                className="p-2 text-gray-600 hover:text-yellow-800"
               >
                 Kategori Produk
               </button>
