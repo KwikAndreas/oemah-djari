@@ -9,9 +9,9 @@ const Navbar = () => {
       <div className="w-2/4 flex items-center justify-between">
         <div className="flex items-center justify-center w-1/3">
           <Image
-            src="/static/logo_cozy.png"
+            src="/static/logo-oemah-djari.png"
             alt="Brand Logo"
-            width={140}
+            width={100}
             height={50}
             className="object-contain"
           />
